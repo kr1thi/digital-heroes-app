@@ -1,34 +1,16 @@
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# ⛳ Digital Heroes - Golf Performance & Charity Tracker
+Currently, two official plugins are available:
 
-A modern web application combining golf score tracking with charitable impact. Built as part of the **Digital Heroes Trainee Selection Process**.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🚀 Live Demo
-**[Insert your Vercel URL here]**
+## React Compiler
 
-## ✨ Key Features
-1) Rolling 5 Score Logic: Automatically retains only the latest 5 golf scores.
-2) Oldest Score Replacement: A new score automatically replaces the oldest stored score.
-3) Stableford Validation: Score range is strictly enforced between 1 and 45.
-4) Duplicate Prevention: Only one score entry is permitted per date.
-5) Charity Integration: Users select a charity to support with a portion of their subscription.
-6) Admin Control Panel: Centralized oversight of all user scores and system activity.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Tech Stack
-* **Frontend**: React.js (Vite)
-* **Backend/Database**: Supabase.
-* **Deployment**: Vercel.
+## Expanding the ESLint configuration
 
-## 🔑 Access Credentials
-To evaluate the system, please use:
-* **Admin View**: `admin@srec.ac.in`
-* **User View**: (Use any valid email)
-
-## 🎯 Implementation Status
-*  Rolling 5 Score Logic 
-*  Charity Selection System 
-*  User Dashboard 
-*  Admin Panel 
-*  Responsive UI 
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

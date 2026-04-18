@@ -4,7 +4,8 @@ A modern web application combining golf score tracking with charitable impact. B
 
 ## 🚀 Live Demo
 **https://digital-heroes-app-jovj.vercel.app/**
-## Key Feature
+## ✨ Key Features
+1) Rolling 5 Score Logic: Automatically retains only the latest 5 golf scores.
 2) Oldest Score Replacement: A new score automatically replaces the oldest stored score.
 3) Stableford Validation: Score range is strictly enforced between 1 and 45.
 4) Duplicate Prevention: Only one score entry is permitted per date.

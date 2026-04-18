@@ -1,16 +1,29 @@
-# React + Vite
+# ⛳ Digital Heroes - Golf Performance & Charity Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application combining golf score tracking with charitable impact. Built as part of the **Digital Heroes Trainee Selection Process**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+**[Insert your Vercel URL here]**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+2) Oldest Score Replacement: A new score automatically replaces the oldest stored score.
+3) Stableford Validation: Score range is strictly enforced between 1 and 45.
+4) Duplicate Prevention: Only one score entry is permitted per date.
+5) Charity Integration: Users select a charity to support with a portion of their subscription.
+6) Admin Control Panel: Centralized oversight of all user scores and system activity.
 
-## React Compiler
+## 🛠️ Tech Stack
+* **Frontend**: React.js (Vite)
+* **Backend/Database**: Supabase.
+* **Deployment**: Vercel.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔑 Access Credentials
+To evaluate the system, please use:
+* **Admin View**: `admin@srec.ac.in`
+* **User View**: (Use any valid email)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Implementation Status
+*  Rolling 5 Score Logic 
+*  Charity Selection System 
+*  User Dashboard 
+*  Admin Panel 
+*  Responsive UI 

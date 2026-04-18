@@ -3,8 +3,8 @@
 A modern web application combining golf score tracking with charitable impact. Built as part of the **Digital Heroes Trainee Selection Process**.
 
 ## 🚀 Live Demo
-**[Insert your Vercel URL here]**
-
+**https://digital-heroes-app-jovj.vercel.app/**
+## Key Feature
 2) Oldest Score Replacement: A new score automatically replaces the oldest stored score.
 3) Stableford Validation: Score range is strictly enforced between 1 and 45.
 4) Duplicate Prevention: Only one score entry is permitted per date.
